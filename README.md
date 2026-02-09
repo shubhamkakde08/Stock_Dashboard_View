@@ -1,4 +1,6 @@
 # Stock_Dashboard_View
+<img width="1363" height="694" alt="Stock Dashboard" src="https://github.com/user-attachments/assets/41a21beb-19c4-4d09-9959-9c2ba4cb7a66" />
+
 create or replace view view_production_stock as
 select a.entity_code,a.div_code,a.item_code, m.item_name,m.item_nature,m.item_catg,m.item_group,m.item_class,m.parent_code,
 item_size,m.um,
